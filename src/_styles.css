@@ -1,13 +1,202 @@
 /*
 
-  STYLES
+   Hover
+   Docs: http://tachyons.io/docs/themes/borders/
 
-  Add custom styles here.
+   Base:
+     hover = hover
+
+   Modifiers:
+   --color-name = each color variable name is also a border color name
 
 */
-.hover-button:hover {
-  opacity: .5;
-  background-color: gray;
-  transition: opacity .15s ease-in;
+.hover--black:hover {
+  background-color: var(--black);
+}
+.hover--near-black:hover {
+  background-color: var(--near-black);
+}
+.hover--dark-gray:hover {
+  background-color: var(--dark-gray);
+}
+.hover--mid-gray:hover {
+  background-color: var(--mid-gray);
+}
+.hover--gray:hover {
+  background-color: var(--gray);
+}
+.hover--silver:hover {
+  background-color: var(--silver);
+}
+.hover--light-silver:hover {
+  background-color: var(--light-silver);
+}
+.hover--moon-gray:hover {
+  background-color: var(--moon-gray);
+}
+.hover--light-gray:hover {
+  background-color: var(--light-gray);
+}
+.hover--near-white:hover {
+  background-color: var(--near-white);
+}
+.hover--white:hover {
+  background-color: var(--white);
 }
 
+.hover--white-90:hover {
+  background-color: var(--white-90);
+}
+.hover--white-80:hover {
+  background-color: var(--white-80);
+}
+.hover--white-70:hover {
+  background-color: var(--white-70);
+}
+.hover--white-60:hover {
+  background-color: var(--white-60);
+}
+.hover--white-50:hover {
+  background-color: var(--white-50);
+}
+.hover--white-40:hover {
+  background-color: var(--white-40);
+}
+.hover--white-30:hover {
+  background-color: var(--white-30);
+}
+.hover--white-20:hover {
+  background-color: var(--white-20);
+}
+.hover--white-10:hover {
+  background-color: var(--white-10);
+}
+.hover--white-05:hover {
+  background-color: var(--white-05);
+}
+.hover--white-025:hover {
+  background-color: var(--white-025);
+}
+.hover--white-0125:hover {
+  background-color: var(--white-0125);
+}
+
+.hover--black-90:hover {
+  background-color: var(--black-90);
+}
+.hover--black-80:hover {
+  background-color: var(--black-80);
+}
+.hover--black-70:hover {
+  background-color: var(--black-70);
+}
+.hover--black-60:hover {
+  background-color: var(--black-60);
+}
+.hover--black-50:hover {
+  background-color: var(--black-50);
+}
+.hover--black-40:hover {
+  background-color: var(--black-40);
+}
+.hover--black-30:hover {
+  background-color: var(--black-30);
+}
+.hover--black-20:hover {
+  background-color: var(--black-20);
+}
+.hover--black-10:hover {
+  background-color: var(--black-10);
+}
+.hover--black-05:hover {
+  background-color: var(--black-05);
+}
+.hover--black-025:hover {
+  background-color: var(--black-025);
+}
+.hover--black-0125:hover {
+  background-color: var(--black-0125);
+}
+
+.hover--dark-red:hover {
+  background-color: var(--dark-red);
+}
+.hover--red:hover {
+  background-color: var(--red);
+}
+.hover--light-red:hover {
+  background-color: var(--light-red);
+}
+.hover--orange:hover {
+  background-color: var(--orange);
+}
+.hover--gold:hover {
+  background-color: var(--gold);
+}
+.hover--yellow:hover {
+  background-color: var(--yellow);
+}
+.hover--light-yellow:hover {
+  background-color: var(--light-yellow);
+}
+.hover--purple:hover {
+  background-color: var(--purple);
+}
+.hover--light-purple:hover {
+  background-color: var(--light-purple);
+}
+.hover--dark-pink:hover {
+  background-color: var(--dark-pink);
+}
+.hover--hot-pink:hover {
+  background-color: var(--hot-pink);
+}
+.hover--pink:hover {
+  background-color: var(--pink);
+}
+.hover--light-pink:hover {
+  background-color: var(--light-pink);
+}
+.hover--dark-green:hover {
+  background-color: var(--dark-green);
+}
+.hover--green:hover {
+  background-color: var(--green);
+}
+.hover--light-green:hover {
+  background-color: var(--light-green);
+}
+.hover--navy:hover {
+  background-color: var(--navy);
+}
+.hover--dark-blue:hover {
+  background-color: var(--dark-blue);
+}
+.hover--blue:hover {
+  background-color: var(--blue);
+}
+.hover--light-blue:hover {
+  background-color: var(--light-blue);
+}
+.hover--lightest-blue:hover {
+  background-color: var(--lightest-blue);
+}
+.hover--washed-blue:hover {
+  background-color: var(--washed-blue);
+}
+.hover--washed-green:hover {
+  background-color: var(--washed-green);
+}
+.hover--washed-yellow:hover {
+  background-color: var(--washed-yellow);
+}
+.hover--washed-red:hover {
+  background-color: var(--washed-red);
+}
+
+.hover--transparent:hover {
+  background-color: var(--transparent);
+}
+.hover--inherit:hover {
+  background-color: inherit;
+}
