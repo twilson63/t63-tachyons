@@ -5,4 +5,9 @@
   Add custom styles here.
 
 */
+.hover-button:hover {
+  opacity: .5;
+  background-color: gray;
+  transition: opacity .15s ease-in;
+}
 
